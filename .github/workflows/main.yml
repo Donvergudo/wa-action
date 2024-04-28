@@ -1,4 +1,4 @@
-name:  Whatsapp Notify
+name:  Whatsapp Notify mensajes
 on:
   issue_comment:
     types: created
@@ -17,9 +17,9 @@ jobs:
     steps:
       - name: wa-notify
         uses: mdb571/wa-action@master
-        with:
-          from: ${{ secrets.FROM }}
+        with:+525653636612
+          from: +5256536612}}
           to: ${{secrets.TO }}
-        env:
+        env: betovera07@gmail.com
           TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
           TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH }}
